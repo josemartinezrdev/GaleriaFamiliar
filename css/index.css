@@ -16,13 +16,17 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: #03afff;
+  background-color: #282c34;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.contain {
+  background-size: contain;
 }
 
 .grid-item:hover {
@@ -53,5 +57,11 @@ body {
 
   .tall {
     grid-row: span 2;
+  }
+
+  .grid-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
